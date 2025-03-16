@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corner-Touch Design</title>
+    <style>
+        body { display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+           
+            background-color: #fff;
+        }
+
+        .container {
+            position: relative;
+            width: 500px;
+            height: 600px;
+        }
+
+        .box {
+            position:absolute;
+            width: 200px;
+            height: 200px;
+            border: 10px solid,black; 
+        }
+
+        .text-box {
+            background-color: aqua;
+            top: 0;
+            left: 0;
+            padding:20px;
+            
+        }
+
+        .yellow-box {
+            background-color: yellow;
+            top: 260px; 
+            left: 259px;
+           border-top:20px solid black;
+           border-right: 10px solid black; 
+           border-bottom:20px solid black;
+           border-left: 10px solid black;
+        }
+
+        .red-box {
+            background-color: #d3545a;
+            top: 500px; 
+            left: 40px;
+           margin-left: 550; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box text-box">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor arna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</div>
+        <div class="box yellow-box"><center><img src="nature.jpg" alt="wayo" width="200px" height="200"></center></div>
+        <div class="box red-box"><img src="about.jpg" width="200px"</div>
+    </div>
+</body>
+</html>
